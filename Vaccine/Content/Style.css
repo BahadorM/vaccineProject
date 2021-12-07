@@ -1,0 +1,25 @@
+﻿body {
+    background: rgb(85, 139, 110);
+    direction: rtl;
+    font-size:1em;
+    font-weight:100;
+}
+.flexContainer {
+    display: flex;
+    grid-column-gap: 50px;
+    justify-content: center;
+    direction:rtl;
+    text-align:right;
+}
+.flexItem {
+    
+    background:white;
+    border: 1px solid black;
+    padding: 20px;
+    width: 50%;
+    height: 70%;
+    font-size: 30px;
+    text-align: center;
+    direction: rtl;
+    text-align: right;
+}
